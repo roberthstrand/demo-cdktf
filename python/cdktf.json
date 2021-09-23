@@ -1,0 +1,16 @@
+{
+  "language": "python",
+  "app": "pipenv run python main.py",
+  "projectId": "ac537b24-3f62-4b2e-9f74-d0e4e9a72f8b",
+  "terraformProviders": [
+    "azurerm@2.75.0"
+  ],
+  "terraformModules": [
+    "crayon/vm/azurerm@1.10.1"
+  ],
+  "codeMakerOutput": "imports",
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+"allowSepCharsInLogicalIds": "true"
+  }
+}
